@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search App</title>
+    <script src="https://kit.fontawesome.com/33dca777bd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -19,10 +23,11 @@
             <form class="searchBar" id="searchBar">
                 <label for="search" class="offscreen">Enter your search term here...</label>
                 <input type="text" id="search" autocomplete="off">
-                <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="Clear search terms">X
+                <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="Clear search terms"><i
+                        class="fas fa-times"></i>
                 </div>
-                <button id="searchButton" class="button searchButton" type="submit"
-                    aria-label="Submit button">Search</button>
+                <button id="searchButton" class="button searchButton" type="submit" aria-label="Submit button"><i
+                        class="fas fa-search"></i></button>
             </form>
         </section>
         <section class="results">
