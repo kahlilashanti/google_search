@@ -9,7 +9,23 @@
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <main>
+        <h1 class="offscreeen">Wikipedia JS search</h1>
+        <section class="searchEntry">
+            <h1 class="offscreen">Enter Search Term</h1>
+            <div class="logo" aria-hidden="true">
+                Logo
+            </div>
+            <form class="searchBar" id="searchBar">
+                <label for="search" class="offscreen">Enter your search term here...</label>
+                <input type="text" id="search" autocomplete="off">
+                <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="Clear search terms">X
+                </div>
+                <button id="searchButton" class="button searchButton" type="submit"
+                    aria-label="Submit button">Search</button>
+            </form>
+        </section>
+    </main>
 </body>
 
 </html>
